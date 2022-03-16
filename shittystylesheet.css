@@ -1,0 +1,78 @@
+
+html{
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.nav-bar{
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  font-family: Inter;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  margin: 0px;
+  
+}
+
+.w-partylogo{
+  float: left;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+a{
+  font-family: Inter
+}
+  
+a:link{
+  color: white;
+}
+a:hover{
+  color: white;
+  background-color: rgb(214,0,0)
+}
+.navbarlist {
+  font-size: 25px;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  list-style-type: none;
+  top: 0;
+
+  
+}
+
+.navbarlist li{ 
+  padding-right: 25px;
+  list-style: none;
+
+}
+
+body{
+  background-color: rgb(0,0,0);
+  color: rgb(255, 255,255);
+  
+}
+
+body p{
+  font-family: Inter;
+}
+
+body h1, h2, h3{
+  font-family: Playfair Display;
+  font-weight: 400;
+
+}
+
+body h1{
+  font-size: 75px
+}
+
+body {
+  background-image: url("메이드.jpg");
+  background-size: cover;
+}
